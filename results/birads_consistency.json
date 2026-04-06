@@ -1,0 +1,11 @@
+{
+  "baseline": {
+    "birads_consistency": 1.0
+  },
+  "multimodal_ft": {
+    "birads_consistency": 1.0
+  },
+  "multimodal_ft_rag_k1": {
+    "birads_consistency": 1.0
+  }
+}

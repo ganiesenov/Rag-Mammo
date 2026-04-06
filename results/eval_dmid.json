@@ -1,0 +1,21 @@
+{
+  "dataset": "DMID",
+  "n_test": 52,
+  "note": "Evaluated against REAL radiologist reports",
+  "baseline": {
+    "bleu1": 0.0547,
+    "bleu4": 0.0012,
+    "rouge1": 0.1446,
+    "rouge2": 0.021,
+    "rougeL": 0.1025,
+    "bertscore": 0.8019
+  },
+  "multimodal_ft": {
+    "bleu1": 0.0827,
+    "bleu4": 0.0016,
+    "rouge1": 0.24,
+    "rouge2": 0.0452,
+    "rougeL": 0.1696,
+    "bertscore": 0.8364
+  }
+}

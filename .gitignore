@@ -1,0 +1,16 @@
+# Большие файлы моделей
+medgemma_finetuned/
+medgemma_multimodal/
+medgemma_dmid/
+models/
+
+# Данные
+vindr/
+cbis-ddsm/
+dmid/
+
+# Временные файлы
+__pycache__/
+*.pyc
+*.pkl
+*.index

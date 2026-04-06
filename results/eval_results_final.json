@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "bleu1": 0.2411,
+    "bleu4": 0.0552,
+    "rouge1": 0.4006,
+    "rouge2": 0.1454,
+    "rougeL": 0.2497,
+    "bertscore": 0.8465
+  },
+  "finetuned": {
+    "bleu1": 0.3831,
+    "bleu4": 0.1603,
+    "rouge1": 0.5926,
+    "rouge2": 0.319,
+    "rougeL": 0.4553,
+    "bertscore": 0.9127
+  },
+  "finetuned_rag": {
+    "bleu1": 0.418,
+    "bleu4": 0.1563,
+    "rouge1": 0.5577,
+    "rouge2": 0.2692,
+    "rougeL": 0.4211,
+    "bertscore": 0.9006
+  }
+}

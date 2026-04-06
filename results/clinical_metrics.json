@@ -1,0 +1,10 @@
+{
+  "baseline": {
+    "recommendation_accuracy": 0.8667,
+    "hallucination_rate": 0.0
+  },
+  "multimodal_ft": {
+    "recommendation_accuracy": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "qwen2.5-vl-7b": {
+    "bleu1": 0.2405,
+    "bleu4": 0.0543,
+    "rouge1": 0.4122,
+    "rouge2": 0.129,
+    "rougeL": 0.2496,
+    "bertscore": 0.86
+  },
+  "llava-1.6-7b": {
+    "bleu1": 0.0743,
+    "bleu4": 0.0009,
+    "rouge1": 0.2214,
+    "rouge2": 0.0312,
+    "rougeL": 0.1359,
+    "bertscore": 0.8178
+  }
+}

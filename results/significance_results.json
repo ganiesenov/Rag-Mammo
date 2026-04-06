@@ -1,0 +1,9 @@
+{
+  "multimodal_ft_mean": 0.6122965898504976,
+  "multimodal_ft_std": 0.0648787892148672,
+  "baseline_mean": 0.2956522890916186,
+  "baseline_std": 0.0714241817427527,
+  "bootstrap_pvalue": 0.0,
+  "ttest_pvalue": 2.4961224002586144e-16,
+  "significant": true
+} 

@@ -1,0 +1,18 @@
+{
+  "multimodal_ft": {
+    "bleu1": 0.444,
+    "bleu4": 0.1823,
+    "rouge1": 0.6123,
+    "rouge2": 0.3433,
+    "rougeL": 0.4798,
+    "bertscore": 0.9188
+  },
+  "multimodal_ft_posthoc_rag": {
+    "bleu1": 0.2292,
+    "bleu4": 0.0674,
+    "rouge1": 0.4354,
+    "rouge2": 0.2011,
+    "rougeL": 0.2981,
+    "bertscore": 0.8814
+  }
+}
