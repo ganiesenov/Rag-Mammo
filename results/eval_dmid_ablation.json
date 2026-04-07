@@ -1,0 +1,31 @@
+{
+  "zero_shot": {
+    "bleu1": 0.058,
+    "bleu4": 0.0013,
+    "rouge1": 0.1456,
+    "rouge2": 0.019,
+    "rougeL": 0.1022,
+    "bertscore": 0.8024
+  },
+  "dmid_only": {
+    "bleu1": 0.4569,
+    "bleu4": 0.2205,
+    "rouge1": 0.6858,
+    "rouge2": 0.466,
+    "rougeL": 0.6148,
+    "bertscore": 0.9093
+  },
+  "two_stage": {
+    "bleu1": 0.5204,
+    "bleu4": 0.3065,
+    "rouge1": 0.7241,
+    "rouge2": 0.5413,
+    "rougeL": 0.662,
+    "bertscore": 0.9171
+  },
+  "meta": {
+    "dataset": "DMID",
+    "n_test": 52,
+    "note": "Real radiologist reports, AMRG test split"
+  }
+}

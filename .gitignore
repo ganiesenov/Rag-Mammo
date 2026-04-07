@@ -1,16 +1,39 @@
-# Большие файлы моделей
-medgemma_finetuned/
-medgemma_multimodal/
-medgemma_dmid/
-models/
+# Model weights & checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+optimizer.pt
+rng_state.pth
+scheduler.pt
+training_args.bin
+trainer_state.json
 
-# Данные
+# Model directories
+medgemma_*/
+data_efficiency/
+clip_gpt2_models/
+
+# Data (too big)
+dmid/
 vindr/
 cbis-ddsm/
-dmid/
+*.zip
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
 
-# Временные файлы
+# Python
 __pycache__/
 *.pyc
-*.pkl
-*.index
+.ipynb_checkpoints/
+
+# Keep
+!*.py
+!*.md
+!*.tex
+!*.bib
+!*.json
+!results/*.json

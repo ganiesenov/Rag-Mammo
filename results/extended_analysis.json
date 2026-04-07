@@ -1,0 +1,19 @@
+{
+  "birads_distribution_test": {
+    "2": 7,
+    "1": 11,
+    "3": 12,
+    "4": 15,
+    "5": 7
+  },
+  "density_distribution_test": {
+    "B": 24,
+    "C": 20,
+    "D": 5,
+    "A": 3
+  },
+  "report_length_real": {
+    "mean": 43.1,
+    "std": 9.9
+  }
+}

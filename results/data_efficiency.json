@@ -1,0 +1,50 @@
+{
+  "dmid_only_407": {
+    "bleu4": 0.2205,
+    "rouge1": 0.6858,
+    "rougeL": 0.6148,
+    "bertscore": 0.9093
+  },
+  "two_stage_407": {
+    "bleu4": 0.3065,
+    "rouge1": 0.7241,
+    "rougeL": 0.662,
+    "bertscore": 0.9171
+  },
+  "dmid_only_50": {
+    "bleu4": 0.0926,
+    "rouge1": 0.604,
+    "rougeL": 0.5018,
+    "bertscore": 0.8957
+  },
+  "two_stage_50": {
+    "bleu4": 0.1208,
+    "rouge1": 0.5914,
+    "rougeL": 0.522,
+    "bertscore": 0.8934
+  },
+  "dmid_only_100": {
+    "bleu4": 0.103,
+    "rouge1": 0.6183,
+    "rougeL": 0.5424,
+    "bertscore": 0.8967
+  },
+  "two_stage_100": {
+    "bleu4": 0.1351,
+    "rouge1": 0.6437,
+    "rougeL": 0.57,
+    "bertscore": 0.8999
+  },
+  "dmid_only_200": {
+    "bleu4": 0.1485,
+    "rouge1": 0.6391,
+    "rougeL": 0.5601,
+    "bertscore": 0.9033
+  },
+  "two_stage_200": {
+    "bleu4": 0.1839,
+    "rouge1": 0.6652,
+    "rougeL": 0.5993,
+    "bertscore": 0.9067
+  }
+}
