@@ -1,0 +1,72 @@
+{
+  "qwen25_zeroshot": {
+    "bleu1": 0.0723,
+    "bleu4": 0.0019,
+    "rouge1": 0.2017,
+    "rouge2": 0.0394,
+    "rougeL": 0.1454,
+    "meteor": 0.2073,
+    "cider": 0.0086,
+    "bertscore": 0.8229
+  },
+  "llava_zeroshot": {
+    "bleu1": 0.0587,
+    "bleu4": 0.0011,
+    "rouge1": 0.1571,
+    "rouge2": 0.0156,
+    "rougeL": 0.109,
+    "meteor": 0.1882,
+    "cider": 0.0053,
+    "bertscore": 0.81
+  },
+  "phi_zeroshot": {
+    "bleu1": 0,
+    "bleu4": 0,
+    "rouge1": 0.0,
+    "rouge2": 0.0,
+    "rougeL": 0.0,
+    "meteor": 0.0,
+    "cider": 0.0,
+    "bertscore": null
+  },
+  "qwen3_zeroshot": {
+    "bleu1": 0.1081,
+    "bleu4": 0.002,
+    "rouge1": 0.236,
+    "rouge2": 0.0424,
+    "rougeL": 0.1474,
+    "meteor": 0.2277,
+    "cider": 0.0069,
+    "bertscore": null
+  },
+  "medgemma_zeroshot": {
+    "bleu1": 0.0609,
+    "bleu4": 0.0012,
+    "rouge1": 0.1505,
+    "rouge2": 0.0203,
+    "rougeL": 0.0975,
+    "meteor": 0.1921,
+    "cider": 0.0,
+    "bertscore": null
+  },
+  "dmid_only": {
+    "bleu1": 0.4418,
+    "bleu4": 0.2025,
+    "rouge1": 0.6755,
+    "rouge2": 0.4427,
+    "rougeL": 0.6008,
+    "meteor": 0.5967,
+    "cider": 0.4553,
+    "bertscore": null
+  },
+  "two_stage": {
+    "bleu1": 0.4975,
+    "bleu4": 0.2784,
+    "rouge1": 0.7193,
+    "rouge2": 0.5304,
+    "rougeL": 0.6587,
+    "meteor": 0.657,
+    "cider": 0.6392,
+    "bertscore": null
+  }
+}

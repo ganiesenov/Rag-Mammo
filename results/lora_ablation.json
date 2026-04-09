@@ -1,0 +1,76 @@
+{
+  "r16_a32": {
+    "bleu4": 0.2784,
+    "rouge1": 0.7193,
+    "rougeL": 0.6587,
+    "meteor": 0.657,
+    "cider": 0.6392,
+    "config": "r=16, \u03b1=32 (default)"
+  },
+  "r8_a16": {
+    "bleu1": 0.469,
+    "bleu4": 0.2676,
+    "rouge1": 0.7004,
+    "rouge2": 0.5096,
+    "rougeL": 0.6314,
+    "meteor": 0.6326,
+    "cider": 0.5268,
+    "config": "r=8, \u03b1=16",
+    "trainable_params": 16394240
+  },
+  "r8_a32": {
+    "bleu1": 0.5063,
+    "bleu4": 0.2889,
+    "rouge1": 0.7209,
+    "rouge2": 0.5299,
+    "rougeL": 0.6536,
+    "meteor": 0.6596,
+    "cider": 0.6133,
+    "config": "r=8, \u03b1=32",
+    "trainable_params": 16394240
+  },
+  "r32_a32": {
+    "bleu1": 0.501,
+    "bleu4": 0.2904,
+    "rouge1": 0.7142,
+    "rouge2": 0.528,
+    "rougeL": 0.6483,
+    "meteor": 0.6557,
+    "cider": 0.6455,
+    "config": "r=32, \u03b1=32",
+    "trainable_params": 65576960
+  },
+  "r32_a64": {
+    "bleu1": 0.5172,
+    "bleu4": 0.2964,
+    "rouge1": 0.7258,
+    "rouge2": 0.5398,
+    "rougeL": 0.6605,
+    "meteor": 0.6721,
+    "cider": 0.6232,
+    "config": "r=32, \u03b1=64",
+    "trainable_params": 65576960
+  },
+  "r64_a64": {
+    "bleu1": 0.5298,
+    "bleu4": 0.312,
+    "rouge1": 0.7336,
+    "rouge2": 0.5506,
+    "rougeL": 0.6705,
+    "meteor": 0.6845,
+    "cider": 0.7291,
+    "config": "r=64, \u03b1=64",
+    "trainable_params": 131153920
+  },
+  "r64_a128": {
+    "bleu1": 0.4996,
+    "bleu4": 0.2679,
+    "rouge1": 0.7278,
+    "rouge2": 0.533,
+    "rougeL": 0.6663,
+    "meteor": 0.6714,
+    "cider": 0.6867,
+    "config": "r=64, \u03b1=128",
+    "trainable_params": 131153920
+  }
+}

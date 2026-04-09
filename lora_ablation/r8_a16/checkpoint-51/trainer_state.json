@@ -1,0 +1,56 @@
+{
+  "best_global_step": 51,
+  "best_metric": 1.061549186706543,
+  "best_model_checkpoint": "/mnt/c/Users/juman/hard_ml/rag_mammo/new_article/lora_ablation/r8_a16/checkpoint-51",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 51,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.3931203931203931,
+      "grad_norm": 0.4105055332183838,
+      "learning_rate": 9.5e-05,
+      "loss": 3.304098129272461,
+      "step": 20
+    },
+    {
+      "epoch": 0.7862407862407862,
+      "grad_norm": 0.2680816054344177,
+      "learning_rate": 9.839573893832563e-05,
+      "loss": 1.0131624221801758,
+      "step": 40
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 1.061549186706543,
+      "eval_runtime": 26.9137,
+      "eval_samples_per_second": 1.895,
+      "eval_steps_per_second": 0.26,
+      "step": 51
+    }
+  ],
+  "logging_steps": 20,
+  "max_steps": 255,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 4551735012802560.0,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}

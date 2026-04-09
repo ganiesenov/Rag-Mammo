@@ -1,0 +1,22 @@
+{
+  "clip_gpt2": {
+    "bleu1": 0.384,
+    "bleu4": 0.2377,
+    "rouge1": 0.6733,
+    "rouge2": 0.4911,
+    "rougeL": 0.6134,
+    "meteor": 0.5907,
+    "cider": 0.0775,
+    "bertscore": 0.9089
+  },
+  "medclip_gpt2": {
+    "bleu1": 0.3777,
+    "bleu4": 0.2165,
+    "rouge1": 0.6475,
+    "rouge2": 0.4445,
+    "rougeL": 0.5707,
+    "meteor": 0.5554,
+    "cider": 0.0541,
+    "bertscore": 0.9045
+  }
+}

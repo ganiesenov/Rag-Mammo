@@ -201,6 +201,8 @@ def generate_clip_gpt2(model, clip_processor, gpt2_tokenizer, img_path, max_leng
     # Get image embedding
     with torch.no_grad():
         clip_out = model.clip.get_image_features(pixel_values=pixel_values)
+        if not isinstance(clip_out, torch.Tensor):
+            clip_out = clip_out.pooler_output if hasattr(clip_out, "pooler_output") else clip_out[0]
     img_embeds = model.projection(clip_out).unsqueeze(1)
     
     # Start with image token
